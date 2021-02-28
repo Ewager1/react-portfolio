@@ -1,19 +1,14 @@
-.parallax {
-  /* Full height */
-  height: 100vh;
 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+/* centers the title and navigation of the content container */
+
+.center-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    white-space: nowrap;
+    text-align: center;
+  }
+  
+.blue-background {
+  background: rgb(141, 199, 199);
 }
-
-/*sets the title in the center of the page */
-.title-parallax {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-

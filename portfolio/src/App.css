@@ -19,3 +19,23 @@ p,
 a {
   font-size: 1.5rem !important;
 }
+
+.parallax {
+  /* Full height */
+  height: 100vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*sets the title and first navigation in center of page*/
+.title-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+

@@ -5,16 +5,9 @@ import './styles.css'
 import Image from 'react-bootstrap/Image'
 
 function AboutMe() {
-    return  <> <Container fluid className="about-me pt-3 blue-background">
-        <Row>
-        <Col>
-        <h2> About Me </h2> 
-        </Col>
-        </Row>
-        <Navigation />
-        </ Container>
+    return  <> 
+        
 
-        <Container fluid className="blue-background center pt-5"> 
         <Row className="pt-5 pb-5" >
           <Col className="col-6 center">
             <Image
@@ -44,7 +37,7 @@ function AboutMe() {
             </p>
             </Col>
           </Row>
-    </Container>
+
 </>
 }
 

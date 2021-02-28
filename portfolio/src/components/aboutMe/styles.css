@@ -1,14 +1,4 @@
-.about-me {
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    white-space: nowrap;
-    text-align: center;
-  }
-  
-.blue-background {
-  background: rgb(141, 199, 199);
-}
+
 
 /* makes text bold*/
 .bold {
