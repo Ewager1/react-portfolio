@@ -12,7 +12,12 @@ const Container = () => {
     </ div> 
     </Parallax> 
    <AboutMeContainer /> 
+   <Parallax bgImage={process.env.PUBLIC_URL + '/images/backgroundPhoto.jpg'} >
+       <div className="parallax title-parallax">
+       </ div> 
+    </Parallax>
     </>
+
 }
 
 export default Container

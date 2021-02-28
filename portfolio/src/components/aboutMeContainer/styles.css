@@ -10,6 +10,10 @@
   background: rgb(141, 199, 199);
 }
 
+/* makes text bold*/
+.bold {
+  font-weight: bolder;
+}
 
 /* responsiveness for profile picture. Worked better than img-fluid */
 @media screen and (max-width: 650px) {
