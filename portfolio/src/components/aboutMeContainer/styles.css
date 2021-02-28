@@ -1,0 +1,26 @@
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    white-space: nowrap;
+    text-align: center;
+  }
+  
+.blue-background {
+  background: rgb(141, 199, 199);
+}
+
+
+/* responsiveness for profile picture. Worked better than img-fluid */
+@media screen and (max-width: 650px) {
+  .profile-pic {
+    max-width: 90%;
+  }
+}
+/* responsiveness for profile picture. Worked better than img-fluid */
+@media screen and (min-width: 650px) {
+  .profile-pic {
+    max-width: 300px;
+  }
+}
+

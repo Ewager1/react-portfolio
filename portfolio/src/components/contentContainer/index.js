@@ -2,6 +2,7 @@ import React from 'react';
 import "./styles.css"
 import { Parallax } from 'react-parallax';
 import PageTitle from '../pageTitle';
+import AboutMeContainer from '../aboutMeContainer'
 
 const Container = () => {
     return <>
@@ -10,7 +11,7 @@ const Container = () => {
     <PageTitle/> 
     </ div> 
     </Parallax> 
-   
+   <AboutMeContainer /> 
     </>
 }
 
