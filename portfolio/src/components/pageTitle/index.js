@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.css";
 import { Container, Row, Col } from "react-bootstrap";
+import Navigation from '../navigation'
 
 const PageTitle = () => {
   return (
@@ -16,6 +17,7 @@ const PageTitle = () => {
             <h2>Full Stack Developer</h2>
           </Col>
         </Row>
+        <Navigation/>
       </Container>
     </>
   );

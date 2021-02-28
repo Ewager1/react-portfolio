@@ -4,20 +4,33 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const Navigation = () => {
   return (
-    <>
-      <Container>
-        <Row>
-          <Col>
-            <h2>Ethan Wager</h2>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <h2>Full Stack Developer</h2>
-          </Col>
-        </Row>
-      </Container>
-    </>
+      <Row>
+        <Col>
+          <a href="#aboutMe" className="mr-1">
+            About Me
+          </a>
+        </Col>
+        <Col>
+          <a href="#projects" className="mr-1">
+            Projects
+          </a>
+        </Col>
+        <Col>
+          <a href="#skillSet" className="mr-1">
+            Skill-Set
+          </a>
+        </Col>
+        <Col>
+          <a target="_blank" href={process.env.PUBLIC_URL + '/resume/resume.pdf'} className="mr-1">
+            Resume
+          </a>
+        </Col>
+        <Col>
+          <a href="#contactMe" className="mr-1">
+            Contact
+          </a>
+        </Col>
+      </Row>
   );
 };
 
