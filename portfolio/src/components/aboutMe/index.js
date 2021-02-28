@@ -4,7 +4,7 @@ import Navigation from '../navigation'
 import './styles.css'
 import Image from 'react-bootstrap/Image'
 
-function AboutMeContainer() {
+function AboutMe() {
     return  <> <Container fluid className="about-me pt-3 blue-background">
         <Row>
         <Col>
@@ -48,4 +48,4 @@ function AboutMeContainer() {
 </>
 }
 
-export default AboutMeContainer
+export default AboutMe

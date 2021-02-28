@@ -1,23 +1,23 @@
 import React from 'react';
 import "./styles.css"
-import { Parallax } from 'react-parallax';
-import PageTitle from '../pageTitle';
-import AboutMeContainer from '../aboutMeContainer'
+import Navigation from '../navigation'
+import {Container, Col, Row} from 'react-bootstrap'
 
-const Container = () => {
-    return <>
-    <Parallax bgImage={process.env.PUBLIC_URL + '/images/backgroundPhoto.jpg'} >
-    <div className="parallax title-parallax"> 
-    <PageTitle/> 
-    </ div> 
-    </Parallax> 
-   <AboutMeContainer /> 
-   <Parallax bgImage={process.env.PUBLIC_URL + '/images/backgroundPhoto.jpg'} >
-       <div className="parallax title-parallax">
-       </ div> 
-    </Parallax>
-    </>
+const ContentContainer = (props) => {
+    return  <> 
+    <Container fluid className="pt-3 blue-background">
+    <Row>
+    <Col>
+    <h2> {props.sectionTitle} </h2> 
+    </Col>
+    </Row>
+    <Navigation />
+    </ Container>
+    <Container fluid className="blue-background center pt-5"> 
+    {props.sectionBody}
+</Container>
+</>
 
 }
 
-export default Container
+export default ContentContainer
