@@ -6,7 +6,7 @@ import Navigation from '../navigation'
 const PageTitle = () => {
   return (
     <>
-      <Container>
+      <Container className='page-title'>
         <Row>
           <Col>
             <h2>Ethan Wager</h2>

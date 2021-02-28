@@ -6,8 +6,7 @@ import PageTitle from '../pageTitle';
 const Container = () => {
     return <>
     <Parallax bgImage={process.env.PUBLIC_URL + '/images/backgroundPhoto.jpg'} >
-    <div className="parallax"> 
-    <div className="test">HTML inside Parallax</div>
+    <div className="parallax title-parallax"> 
     <PageTitle/> 
     </ div> 
     </Parallax> 
