@@ -5,28 +5,28 @@ import { Container, Row, Col } from "react-bootstrap";
 const Navigation = () => {
   return (
       <Row>
-        <Col>
-          <a href="#aboutMe" className="mr-1">
+        <Col className = 'p-0'>
+          <a href="#aboutMe" className="px-2">
             About Me
           </a>
         </Col>
-        <Col>
-          <a href="#projects" className="mr-1">
+        <Col className = 'p-0'>
+          <a href="#projects" className="px-2">
             Projects
           </a>
         </Col>
-        <Col>
-          <a href="#skillSet" className="mr-1">
+        <Col className = 'p-0'>
+          <a href="#skillSet" className="px-2">
             Skill-Set
           </a>
         </Col>
-        <Col>
-          <a target="_blank" href={process.env.PUBLIC_URL + '/resume/resume.pdf'} className="mr-1">
+        <Col className = 'p-0'>
+          <a target="_blank" href={process.env.PUBLIC_URL + '/resume/resume.pdf'} className="px-2">
             Resume
           </a>
         </Col>
-        <Col>
-          <a href="#contactMe" className="mr-1">
+        <Col className = 'p-0'>
+          <a href="#contactMe" className="no-border px-2">
             Contact
           </a>
         </Col>

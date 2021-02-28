@@ -1,0 +1,12 @@
+a {
+    color: darkgreen !important;
+    border-right-style: solid;
+    border-color: rgb(138, 182, 138);
+    font-size: 1rem;
+  }
+
+  
+
+  .no-border {
+      border-right-style: none;
+  }

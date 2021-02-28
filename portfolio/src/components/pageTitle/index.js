@@ -6,7 +6,7 @@ import Navigation from '../navigation'
 const PageTitle = () => {
   return (
     <>
-      <Container className='page-title'>
+      <Container fluid className='page-title center'>
         <Row>
           <Col>
             <h2>Ethan Wager</h2>
@@ -19,6 +19,7 @@ const PageTitle = () => {
         </Row>
         <Navigation/>
       </Container>
+
     </>
   );
 };
