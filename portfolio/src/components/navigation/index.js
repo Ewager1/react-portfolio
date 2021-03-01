@@ -1,36 +1,50 @@
 import React from "react";
 import "./styles.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
+import { HashLink as Link } from "react-router-hash-link";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import {useEffect} from 'react'
 
-const Navigation = () => {
+
+
+const Navigation = (props) => {
+  useEffect(() => {
+    Aos.init({duration: 1000})
+  }, []);
   return (
-      <Row>
-        <Col className = 'p-0'>
-          <a href="#aboutMe" className="px-2">
-            About Me
-          </a>
-        </Col>
-        <Col className = 'p-0'>
-          <a href="#projects" className="px-2">
-            Projects
-          </a>
-        </Col>
-        <Col className = 'p-0'>
-          <a href="#skillSet" className="px-2">
-            Skill-Set
-          </a>
-        </Col>
-        <Col className = 'p-0'>
-          <a target="_blank" href={process.env.PUBLIC_URL + '/resume/resume.pdf'} className="px-2">
-            Resume
-          </a>
-        </Col>
-        <Col className = 'p-0'>
-          <a href="#contactMe" className="no-border px-2">
-            Contact
-          </a>
-        </Col>
-      </Row>
+    <Row data-aos="fade-up">
+      <Col className="p-0">
+        <Link smooth to="/#aboutMe" className=" navLink px-2">
+          About Me
+        </Link>
+      </Col>
+      <Col className="p-0">
+        <Link smooth to="/#myProjects" className="navLink px-2">
+          Projects
+        </Link>
+      </Col>
+      <Col className="p-0">
+        <Link smooth to="/#skillSet" className="navLink px-2">
+          Skill-Set
+        </Link>
+      </Col>
+      <Col className=" p-0">
+        <Link
+          smooth
+          target="_blank"
+          to={process.env.PUBLIC_URL + "/resume/resume.pdf"}
+          className="navLink px-2"
+        >
+          Resume
+        </Link>
+      </Col>
+      <Col className="p-0">
+        <Link smooth to="/#contactMe" className="navLink no-border px-2">
+          Contact
+        </Link>
+      </Col>
+    </Row>
   );
 };
 
