@@ -1,21 +1,37 @@
 import React from 'react'
 import './styles.css'
 import Navigation from '../navigation'
-import {Container, Row, Col} from 'react-bootstrap'
+import {Container, Row, Col, Card} from 'react-bootstrap'
 
 function MyProjects() {
-    return  <> <Container fluid className="pt-3 blue-background">
+    return  <> 
         <Row>
         <Col>
-        <h2> About Me </h2> 
+<Card style={{ width: '30rem' }}>
+  <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/managerPageView.png'} />
+  <Card.Body>
+    <Card.Title>Dev Fit</Card.Title>
+    <Card.Text>
+    <p> Full-stack Gym Management system with extensive functionality </p>
+    </Card.Text>
+  </Card.Body>
+
+  <Card.Body>
+  <a href="https://gym-logistical-tracker-duex.herokuapp.com/"
+class="card-link bold pr-4"
+target="_blank"
+>Live Link</a >
+  <a href="https://github.com/NewWorldCoder603/Gym-Logistical-Tracker"
+        class="card-link bold"
+        target="_blank"
+        >View Code</a>
+                
+      </Card.Body>
+
+</Card>
         </Col>
         </Row>
-        <Navigation />
-        </ Container>
-<h1> test my Project</h1> 
-        <Container fluid className="blue-background center pt-5"> 
 
-    </Container>
 </>
 }
 
