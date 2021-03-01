@@ -6,6 +6,7 @@ import { Parallax } from "react-parallax";
 import PageTitle from "./components/pageTitle";
 import AboutMe from "./components/aboutMe";
 import MyProjects from "./components/myProjects";
+import SkillSet from './components/skillSet'
 
 console.log(AboutMe);
 
@@ -35,7 +36,11 @@ function App() {
       >
         <div className="parallax "></div>
       </Parallax>
+      <ContentContainer sectionTitle="Skill-Set">
+        <SkillSet />
+      </ContentContainer>
     </>
+    
   );
 }
 
