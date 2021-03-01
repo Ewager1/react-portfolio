@@ -1,0 +1,10 @@
+/* keeps the photos, and therefore cards, same size */
+
+.photo {
+  height: 300px;
+}
+
+.flex-item {
+display: flex; 
+justify-content: center;
+}
