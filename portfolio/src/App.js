@@ -6,7 +6,8 @@ import { Parallax } from "react-parallax";
 import PageTitle from "./components/pageTitle";
 import AboutMe from "./components/aboutMe";
 import MyProjects from "./components/myProjects";
-import SkillSet from './components/skillSet'
+import SkillSet from "./components/skillSet";
+import ContactMe from "./components/contactMe"
 
 console.log(AboutMe);
 
@@ -39,8 +40,15 @@ function App() {
       <ContentContainer sectionTitle="Skill-Set">
         <SkillSet />
       </ContentContainer>
+      <Parallax
+        bgImage={process.env.PUBLIC_URL + "/images/backgroundPhoto.jpg"}
+      >
+        <div className="parallax "></div>
+      </Parallax>
+      <ContentContainer sectionTitle="Contact Me">
+        <ContactMe />
+      </ContentContainer>
     </>
-    
   );
 }
 
