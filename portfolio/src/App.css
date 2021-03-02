@@ -5,20 +5,7 @@
 }
 
 /*altered text sizes. Need to come back and make these classes for  
-since its bad form to overwrite innitials on any project */ 
-
-h1 {
-  font-size: 4em !important;
-}
-
-h2 {
-  font-size: 3em !important;
-}
-
-p,
-a {
-  font-size: 1.5rem !important;
-}
+since its bad form to overwrite innitials on any project */
 
 .parallax {
   /* Full height */
@@ -38,4 +25,3 @@ a {
   justify-content: center;
   align-items: center;
 }
-

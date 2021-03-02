@@ -1,12 +1,11 @@
 .page-title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
-    white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
 
-  }
-  
 /*centers items within div*/
 .center {
   text-align: center;

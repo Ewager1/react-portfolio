@@ -33,6 +33,7 @@ const Navigation = (props) => {
         <Link
           smooth
           target="_blank"
+          rel="noreferrer"
           to={process.env.PUBLIC_URL + "/resume/resume.pdf"}
           className="navLink px-2"
         >

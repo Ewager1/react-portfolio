@@ -5,6 +5,18 @@
 }
 
 .flex-item {
-display: flex; 
-justify-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+.live-link {
+  color: darkgreen !important;
+  font-size: 1rem;
+  border-right-style: solid;
+  border-color: rgb(138, 182, 138);
+}
+
+.view-code {
+  color: darkgreen !important;
+  font-size: 1rem;
 }
