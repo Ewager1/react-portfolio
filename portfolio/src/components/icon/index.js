@@ -7,10 +7,10 @@ in an a tag, otherwise, it creates a non clickable icon. */
 /*animation and animation delay is added as props so they can be styled where called */
 
 function Icon(props) {
-  //passed isLink true as a string to avoid warning error that "id" should not have a boolean value. 
+  //passed isLink true as a string to avoid warning error that "id" should not have a boolean value.
   return (
     <>
-      {props.isLink === 'true' ? (
+      {props.isLink === "true" ? (
         <Col
           xs="12"
           sm
@@ -20,7 +20,7 @@ function Icon(props) {
         >
           <a href={props.url} target="_blank" rel="noreferrer">
             <img
-              src={props.imgUrl}
+              src={process.env.PUBLIC_URL + props.imgUrl}
               alt={props.altText}
               className={props.className}
             />
