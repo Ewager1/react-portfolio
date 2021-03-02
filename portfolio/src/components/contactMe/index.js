@@ -16,7 +16,7 @@ function ContactMe() {
         dataAos="fade-up"
         dataAosDelay="500"
         className="contactIcon"
-        imgUrl="/icons/linked-in-icon.png"
+        imgUrl="./icons/linked-in-icon.png"
         isLink="true"
         url="https://www.linkedin.com/in/ethan-wager-5297111b4/"
       />

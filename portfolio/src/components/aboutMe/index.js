@@ -10,6 +10,8 @@ function AboutMe() {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
+
+
   return (
     <>
       <Row className="pt-5 pb-5">
