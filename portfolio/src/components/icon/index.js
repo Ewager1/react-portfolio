@@ -36,7 +36,7 @@ function Icon(props) {
           data-aos-delay={props.dataAosDelay}
         >
           <img
-            src={props.imgUrl}
+             src={process.env.PUBLIC_URL + props.imgUrl}
             alt={props.altText}
             className={props.className}
             data-aos-delay={props.dataAosDelay}
