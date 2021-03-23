@@ -18,9 +18,9 @@ function MyProjects() {
           dataAosDelay="500"
           title="Dev Fit"
           imgUrl="/images/managerPageView.png"
-          cardText="Full-stack Gym Management system with extensive functionality."
-          liveLinkUrl="https://gym-logistical-tracker-duex.herokuapp.com/"
-          viewCodeUrl="https://github.com/NewWorldCoder603/Gym-Logistical-Tracker"
+          cardText="Full-stack Gym Management App with three 3 permissions levels, Auth0, and tons of gym scheduling functionality."
+          liveLinkUrl="https://dev-fit-gym-app.herokuapp.com/"
+          viewCodeUrl="https://github.com/DustinErwin/Devfit"
         />
         <ProjectCard
           dataAos="fade-up"
