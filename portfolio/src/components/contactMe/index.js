@@ -11,7 +11,7 @@ function ContactMe() {
     Aos.init({ duration: 1000 });
   }, []);
   return (
-    <Row>
+    <Row className="contact-me">
       <ContactIcon
         dataAos="fade-up"
         dataAosDelay="500"

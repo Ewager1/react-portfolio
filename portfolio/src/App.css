@@ -1,7 +1,7 @@
 /*Universal Font Family and color*/
 * {
   color: #3b2f2f;
-  font-family: "Neucha", cursive;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /*altered text sizes. Need to come back and make these classes for  

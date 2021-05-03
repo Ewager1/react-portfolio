@@ -32,15 +32,15 @@ function AboutMe() {
           data-aos="fade-up"
           data-aos-delay="500"
         >
-          <p>
+          <p className='aboutMe'>
             <b>I'm Ethan. Nice to meet you.</b>{" "}
           </p>
-          <p>
+          <p className='aboutMe'>
             I'm a highly motivated developer with a boundless curiosity for new
             technologies. I have a lot of pride in what I do, and like my
             applications to be easy to read and intuitive to use.
           </p>
-          <p>
+          <p className='aboutMe'>
             I'm particularly interested in building a better gym management
             system. I've worked with Mind-Body, Perfect Mind, and Club ready as
             a Client, and my ongoing pet project is building a better, more

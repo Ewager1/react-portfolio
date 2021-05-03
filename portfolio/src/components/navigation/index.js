@@ -13,7 +13,7 @@ const Navigation = (props) => {
     Aos.init({duration: 1000})
   }, []);
   return (
-    <Row >
+    <Row className="nav-bar" >
       <Col className="p-0" data-aos="fade-up" data-aos-delay="300">
         <Link smooth to="/#aboutMe" className=" navLink px-2">
           About Me

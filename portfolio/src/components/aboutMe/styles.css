@@ -5,6 +5,10 @@
   font-weight: bolder;
 }
 
+.aboutMe { 
+  font-size: 1.5em;
+}
+
 /* responsiveness for profile picture. Worked better than img-fluid */
 @media screen and (max-width: 650px) {
   .profile-pic {
@@ -17,4 +21,6 @@
     max-width: 300px;
   }
 }
+
+
 
