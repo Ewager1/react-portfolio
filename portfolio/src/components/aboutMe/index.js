@@ -18,7 +18,7 @@ function AboutMe() {
           <Image
             data-aos="fade-up"
             data-aos-delay="500"
-            src={process.env.PUBLIC_URL + "/images/updatedpic.jpg"}
+            src={process.env.PUBLIC_URL + "/images/profProfile.jpeg"}
             roundedCircle
             alt="professional picture"
             className="profile-pic"
@@ -47,7 +47,7 @@ function AboutMe() {
 
           <p className="aboutMe">
             Aside from programming, I love teaching martial arts,
-             music, board games, and reading. 
+             music, board games, and reading.
           </p>
         </Col>
       </Row>
