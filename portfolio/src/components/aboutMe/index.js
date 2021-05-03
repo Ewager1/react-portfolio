@@ -11,7 +11,6 @@ function AboutMe() {
     Aos.init({ duration: 1000 });
   }, []);
 
-
   return (
     <>
       <Row className="pt-5 pb-5">
@@ -32,19 +31,23 @@ function AboutMe() {
           data-aos="fade-up"
           data-aos-delay="500"
         >
-          <p className='aboutMe'>
+          <p className="aboutMe">
             <b>I'm Ethan. Nice to meet you.</b>{" "}
           </p>
-          <p className='aboutMe'>
-            I'm a highly motivated developer with a boundless curiosity for new
-            technologies. I have a lot of pride in what I do, and like my
-            applications to be easy to read and intuitive to use.
+          <p className="aboutMe">
+            I'm a full-stack developer with a passion for learning new
+            technologies. I've always followed the motto, say "Yes!" then figure
+            out how to make it happen.
           </p>
-          <p className='aboutMe'>
-            I'm particularly interested in building a better gym management
-            system. I've worked with Mind-Body, Perfect Mind, and Club ready as
-            a Client, and my ongoing pet project is building a better, more
-            intuitive version.
+          <p className="aboutMe">
+            With a profesional background in gym management and instructing, I
+            am experienced in producing results in fast paced environments with
+            tight deadlines.
+          </p>
+
+          <p className="aboutMe">
+            Aside from programming, I love teaching martial arts,
+             music, board games, and reading. 
           </p>
         </Col>
       </Row>
