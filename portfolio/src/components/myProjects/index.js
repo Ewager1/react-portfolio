@@ -45,11 +45,11 @@ function MyProjects() {
         <ProjectCard
           dataAos="fade-up"
           dataAosDelay="500"
-          title="Timed Trivia Quiz"
-          imgUrl="/images/triviaDemoPic.jpg"
-          cardText="  A timed quiz that tracks the user's score based on time."
-          liveLinkUrl="https://ewager1.github.io/Coding-Trivia-Game-/"
-          viewCodeUrl="https://github.com/Ewager1/Coding-Trivia-Game-"
+          title="Title Interval Timer"
+          imgUrl="/images/timerPage.png"
+          cardText="Built for the head trainer of Title Boxing, Na as a training tool. Times classes."
+          liveLinkUrl="https://ewager1.github.io/Title-Boxin-Class-Timer-/#/"
+          viewCodeUrl="https://github.com/Ewager1/Title-Boxin-Class-Timer"
         />
         <ProjectCard
           dataAos="fade-up"
